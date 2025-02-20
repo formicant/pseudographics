@@ -1,6 +1,6 @@
 # pseudographics
 
-A simple Python module for convering black-and-white bitmaps (contained in a 2D Numpy array) into pseudographics.
+A simple Python module for converting black-and-white bitmaps (contained in a 2D Numpy array) into pseudographics.
 
 
 ## Usage
