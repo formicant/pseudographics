@@ -39,73 +39,82 @@ print('\n'.join(text_lines))
   ```
   Enum specifying which pseudographic Unicode characters to use to represent bitmap pixels:
 
-  <table>
-    <tr valign="top">
-      <td><code>DOUBLE_BLOCKS</code></td>
-      <td>
-        Uses spaces and full-block characters from the <i>Block Elements</i> Unicode range.<br/>
-        Each pixel of the bitmap is represented by two consecutive characters.<br/>
-        In most monospaced fonts, the pixels look almost square.
-      </td>
-      <td><img src="img/double_blocks.png" width="268" /></td>
-    </tr>
-    <tr valign="top">
-      <td><code>FULL_BLOCKS</code></td>
-      <td>
-        Uses spaces and full-block characters from the <i>Block Elements</i> Unicode range.<br/>
-        Each character represents one pixel of the bitmap.<br/>
-        In most monospaced fonts, the pixels look stretched vertically.
-      </td>
-      <td><img src="img/full_blocks.png" width="268" /></td>
-    </tr>
-    <tr valign="top">
-      <td><code>BLOCKS_1X2</code></td>
-      <td>
-        Uses spaces and half-block characters from the <i>Block Elements</i> Unicode range.<br/>
-        Each character represents two vertically arranged pixels of the bitmap.<br/>
-        In most monospaced fonts, the pixels look almost square.
-      </td>
-      <td><img src="img/blocks_1x2.png" width="268" /></td>
-    </tr>
-    <tr valign="top">
-      <td><code>BLOCKS_2X2</code></td>
-      <td>
-        Uses spaces and quarter-block characters from the <i>Block Elements</i> Unicode range.<br/>
-        Each character represents a 2×2 pixel chunk of the bitmap.<br/>
-        In most monospaced fonts, the pixels look stretched vertically.
-      </td>
-      <td><img src="img/blocks_2x2.png" width="268" /></td>
-    </tr>
-    <tr valign="top">
-      <td><code>BLOCKS_2X3</code></td>
-      <td>
-        Uses sextant characters from the <i>Symbols for Legacy Computing</i><br/>
-        Unicode range along with <i>Block Elements</i> characters and spaces.<br/>
-        Introduced in Unicode 13 (2020), require newer fonts.<br/>
-        Each character represents a 2×3 pixel chunk of the bitmap.<br/>
-        In most monospaced fonts, the pixels look a bit stretched vertically.
-      </td>
-      <td><img src="img/blocks_2x3.png" width="268" /></td>
-    </tr>
-    <tr valign="top">
-      <td><code>BLOCKS_2X4</code></td>
-      <td>
-        Uses octant characters from the <i>Symbols for Legacy Computing Supplement</i><br/>
-        Unicode range along with <i>Block Elements</i> characters and spaces.<br/>
-        Introduced in Unicode 16 (2024), require the newest fonts.<br/>
-        Each character represents a 2×4 pixel chunk of the bitmap.<br/>
-        In most monospaced fonts, the pixels look almost square.
-      </td>
-      <td><img src="img/blocks_2x4.png" width="268" /></td>
-    </tr>
-    <tr valign="top">
-      <td><code>BRAILLE_2X4</code></td>
-      <td>
-        Uses characters from the <i>Braille Patterns</i> Unicode range.<br/>
-        Each character represents a 2×4 pixel chunk of the bitmap.<br/>
-        The pixels are usually round in shape with gaps in between.<br/>
-        In some fonts, blank pixels are shown as empty circles.
-      </td>
-      <td><img src="img/braille_2x4.png" width="268" /></td>
-    </tr>
-  </table>
+  - `DOUBLE_BLOCKS`
+    
+    Uses spaces and full-block characters from the <i>Block Elements</i> Unicode range.
+    
+    Each pixel of the bitmap is represented by two consecutive characters.
+    
+    In most monospaced fonts, the pixels look almost square.
+    
+    ![DOUBLE_BLOCKS](img/double_blocks.png)
+    
+  - `FULL_BLOCKS`
+    
+    Uses spaces and full-block characters from the <i>Block Elements</i> Unicode range.
+
+    Each character represents one pixel of the bitmap.
+
+    In most monospaced fonts, the pixels look stretched vertically.
+    
+    ![](img/full_blocks.png)
+    
+  - `BLOCKS_1X2`
+    
+    Uses spaces and half-block characters from the <i>Block Elements</i> Unicode range.
+
+    Each character represents two vertically arranged pixels of the bitmap.
+
+    In most monospaced fonts, the pixels look almost square.
+    
+    ![](img/blocks_1x2.png)
+    
+  - `BLOCKS_2X2`
+    
+    Uses spaces and quarter-block characters from the <i>Block Elements</i> Unicode range.
+
+    Each character represents a 2×2 pixel chunk of the bitmap.
+
+    In most monospaced fonts, the pixels look stretched vertically.
+    
+    ![](img/blocks_2x2.png)
+    
+  - `BLOCKS_2X3`
+    
+    Uses sextant characters from the <i>Symbols for Legacy Computing</i>
+
+    Unicode range along with <i>Block Elements</i> characters and spaces.
+
+    Introduced in Unicode 13 (2020), require newer fonts.
+
+    Each character represents a 2×3 pixel chunk of the bitmap.
+
+    In most monospaced fonts, the pixels look a bit stretched vertically.
+    
+    ![](img/blocks_2x3.png)
+    
+  - `BLOCKS_2X4`
+    
+    Uses octant characters from the <i>Symbols for Legacy Computing Supplement</i>
+
+    Unicode range along with <i>Block Elements</i> characters and spaces.
+
+    Introduced in Unicode 16 (2024), require the newest fonts.
+
+    Each character represents a 2×4 pixel chunk of the bitmap.
+
+    In most monospaced fonts, the pixels look almost square.
+    
+    ![](img/blocks_2x4.png)
+    
+  - `BRAILLE_2X4`
+    
+    Uses characters from the <i>Braille Patterns</i> Unicode range.
+
+    Each character represents a 2×4 pixel chunk of the bitmap.
+
+    The pixels are usually round in shape with gaps in between.
+
+    In some fonts, blank pixels are shown as empty circles.
+    
+    ![](img/braille_2x4.png)
