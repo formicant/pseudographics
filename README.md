@@ -68,16 +68,14 @@ print('\n'.join(text_lines))
     ![](img/blocks_2x2.png)
     
   - `BLOCKS_2X3`
-    Uses sextant characters from the <i>Symbols for Legacy Computing</i> Unicode range along with <i>Block Elements</i> characters and spaces.
-    Introduced in Unicode 13 (2020), require newer fonts.
+    Uses sextant characters from the <i>Symbols for Legacy Computing</i> Unicode range along with <i>Block Elements</i> characters and spaces (introduced in Unicode 13 (2020), require newer fonts).
     Each character represents a 2×3 pixel chunk of the bitmap.
     In most monospaced fonts, the pixels look a bit stretched vertically.
     
     ![](img/blocks_2x3.png)
     
   - `BLOCKS_2X4`
-    Uses octant characters from the <i>Symbols for Legacy Computing Supplement</i> Unicode range along with <i>Block Elements</i> characters and spaces.
-    Introduced in Unicode 16 (2024), require the newest fonts.
+    Uses octant characters from the <i>Symbols for Legacy Computing Supplement</i> Unicode range along with <i>Block Elements</i> characters and spaces (introduced in Unicode 16 (2024), require the newest fonts).
     Each character represents a 2×4 pixel chunk of the bitmap.
     In most monospaced fonts, the pixels look almost square.
     

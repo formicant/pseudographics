@@ -29,15 +29,15 @@ class BlockSet(Enum):
     """
     BLOCKS_2X3 = auto()
     """ Uses sextant characters from the ‘Symbols for Legacy Computing’
-        Unicode range along with ‘Block Elements’ characters and spaces.
-        Introduced in Unicode 13 (2020), require newer fonts.
+        Unicode range along with ‘Block Elements’ characters and spaces
+        (introduced in Unicode 13 (2020), require newer fonts).
         Each character represents a 2×3 pixel chunk of the bitmap.
         In most monospaced fonts, the pixels look a bit stretched vertically.
     """
     BLOCKS_2X4 = auto()
     """ Uses octant characters from the ‘Symbols for Legacy Computing Supplement’
-        Unicode range along with ‘Block Elements’ characters and spaces.
-        Introduced in Unicode 16 (2024), require the newest fonts.
+        Unicode range along with ‘Block Elements’ characters and spaces
+        (introduced in Unicode 16 (2024), require the newest fonts).
         Each character represents a 2×4 pixel chunk of the bitmap.
         In most monospaced fonts, the pixels look almost square.
     """
