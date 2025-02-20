@@ -40,7 +40,6 @@ print('\n'.join(text_lines))
   Enum specifying which pseudographic Unicode characters to use to represent bitmap pixels:
 
   - `DOUBLE_BLOCKS`
-    
     Uses spaces and full-block characters from the <i>Block Elements</i> Unicode range.
     
     Each pixel of the bitmap is represented by two consecutive characters.
@@ -50,7 +49,6 @@ print('\n'.join(text_lines))
     ![DOUBLE_BLOCKS](img/double_blocks.png)
     
   - `FULL_BLOCKS`
-    
     Uses spaces and full-block characters from the <i>Block Elements</i> Unicode range.
 
     Each character represents one pixel of the bitmap.
@@ -60,7 +58,6 @@ print('\n'.join(text_lines))
     ![](img/full_blocks.png)
     
   - `BLOCKS_1X2`
-    
     Uses spaces and half-block characters from the <i>Block Elements</i> Unicode range.
 
     Each character represents two vertically arranged pixels of the bitmap.
@@ -70,7 +67,6 @@ print('\n'.join(text_lines))
     ![](img/blocks_1x2.png)
     
   - `BLOCKS_2X2`
-    
     Uses spaces and quarter-block characters from the <i>Block Elements</i> Unicode range.
 
     Each character represents a 2×2 pixel chunk of the bitmap.
@@ -80,10 +76,7 @@ print('\n'.join(text_lines))
     ![](img/blocks_2x2.png)
     
   - `BLOCKS_2X3`
-    
-    Uses sextant characters from the <i>Symbols for Legacy Computing</i>
-
-    Unicode range along with <i>Block Elements</i> characters and spaces.
+    Uses sextant characters from the <i>Symbols for Legacy Computing</i> Unicode range along with <i>Block Elements</i> characters and spaces.
 
     Introduced in Unicode 13 (2020), require newer fonts.
 
@@ -94,10 +87,7 @@ print('\n'.join(text_lines))
     ![](img/blocks_2x3.png)
     
   - `BLOCKS_2X4`
-    
-    Uses octant characters from the <i>Symbols for Legacy Computing Supplement</i>
-
-    Unicode range along with <i>Block Elements</i> characters and spaces.
+    Uses octant characters from the <i>Symbols for Legacy Computing Supplement</i> Unicode range along with <i>Block Elements</i> characters and spaces.
 
     Introduced in Unicode 16 (2024), require the newest fonts.
 
@@ -108,7 +98,6 @@ print('\n'.join(text_lines))
     ![](img/blocks_2x4.png)
     
   - `BRAILLE_2X4`
-    
     Uses characters from the <i>Braille Patterns</i> Unicode range.
 
     Each character represents a 2×4 pixel chunk of the bitmap.
