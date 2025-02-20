@@ -43,24 +43,28 @@ print('\n'.join(text_lines))
     Uses spaces and full-block characters from the <i>Block Elements</i> Unicode range.
     Each pixel of the bitmap is represented by two consecutive characters.
     In most monospaced fonts, the pixels look almost square.
+    
     ![DOUBLE_BLOCKS](img/double_blocks.png)
     
   - `FULL_BLOCKS`
     Uses spaces and full-block characters from the <i>Block Elements</i> Unicode range.
     Each character represents one pixel of the bitmap.
     In most monospaced fonts, the pixels look stretched vertically.
+    
     ![](img/full_blocks.png)
     
   - `BLOCKS_1X2`
     Uses spaces and half-block characters from the <i>Block Elements</i> Unicode range.
     Each character represents two vertically arranged pixels of the bitmap.
     In most monospaced fonts, the pixels look almost square.
+    
     ![](img/blocks_1x2.png)
     
   - `BLOCKS_2X2`
     Uses spaces and quarter-block characters from the <i>Block Elements</i> Unicode range.
     Each character represents a 2×2 pixel chunk of the bitmap.
     In most monospaced fonts, the pixels look stretched vertically.
+    
     ![](img/blocks_2x2.png)
     
   - `BLOCKS_2X3`
@@ -68,6 +72,7 @@ print('\n'.join(text_lines))
     Introduced in Unicode 13 (2020), require newer fonts.
     Each character represents a 2×3 pixel chunk of the bitmap.
     In most monospaced fonts, the pixels look a bit stretched vertically.
+    
     ![](img/blocks_2x3.png)
     
   - `BLOCKS_2X4`
@@ -75,6 +80,7 @@ print('\n'.join(text_lines))
     Introduced in Unicode 16 (2024), require the newest fonts.
     Each character represents a 2×4 pixel chunk of the bitmap.
     In most monospaced fonts, the pixels look almost square.
+    
     ![](img/blocks_2x4.png)
     
   - `BRAILLE_2X4`
@@ -82,4 +88,5 @@ print('\n'.join(text_lines))
     Each character represents a 2×4 pixel chunk of the bitmap.
     The pixels are usually round in shape with gaps in between.
     In some fonts, blank pixels are shown as empty circles.
+    
     ![](img/braille_2x4.png)
